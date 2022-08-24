@@ -1,0 +1,19 @@
+# Font style metadata
+name = "Minimal"
+
+# Optional Google font URL
+google_fonts = "Source+Sans+Pro:wght@400;Roboto:wght@400;"
+
+# Font families
+heading_font = "Source Sans Pro"
+body_font = "Source Sans Pro"
+nav_font = "Source Sans Pro"
+mono_font = "Source Sans Pro"
+
+
+#Karma:wght@600
+#Solway:wght@400;500
+#Rasa:wght@500;600
+#Vesper+Libre:wght@400;500
+#Source+Serif+Pro:wght@600
+

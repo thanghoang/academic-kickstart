@@ -3,7 +3,7 @@
 widget = "experience"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 40  # Order that this section will appear.
+weight = 100  # Order that this section will appear.
 
 title = "Experience"
 subtitle = ""
@@ -17,28 +17,76 @@ date_format = "Jan 2006"
 #   Required fields are `title`, `company`, and `date_start`.
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
-[[experience]]
-  title = "CEO"
-  company = "GenCoin"
-  company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
-  date_end = ""
-  description = """
-  Responsibilities include:
-  
-  * Analysing
-  * Modelling
-  * Deploying
-  """
 
 [[experience]]
-  title = "Professor"
-  company = "University X"
+  title = "Postdoctoral Scholar"
+  company = "Carnegie Mellon University"
   company_url = ""
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  location = "Pittsburg, PA"
+  date_start = "2020-08-01"
+  date_end = "2020-12-01"
+
+[[experience]]
+  title = "Research Assistant"
+  company = "University of South Florida"
+  company_url = ""
+  location = "Tampa, FL"
+  date_start = "2019-01-01"
+  date_end = "2020-12-01"
+
+
+#[[experience]]
+#  title = "Graduate Research Assistant"
+#  company = "University of South Florida"
+#  company_url = ""
+#  location = "Tampa, FL"
+#  date_start = "2019-01-01"
+#  date_end = "2020-08-01"
+
+
+[[experience]]
+  title = "Security Research Intern"
+  company = "Robert Bosch RTC"
+  company_url = ""
+  location = "Pittsburgh, PA"
+  date_start = "2018-06-01"
+  date_end = "2018-08-01"
+
+  old_employ = 1
+  date_start_old = ["2016-06-01"]
+  date_end_old = ["2016-08-01"]
+  
+  #description = """
+  #Responsibilities include:
+  
+  #* Analysing
+  #* Modelling
+  #* Deploying
+  #"""
+
+[[experience]]
+  title = "Graduate Research Assistant"
+  company = "Oregon State University"
+  company_url = ""
+  location = "Corvallis, OR"
+  date_start = "2015-09-01"
+  date_end = "2018-12-01"
+
+
+[[experience]]
+  title = "Lecturer"
+  company = "Saigon Technology University"
+  company_url = ""
+  location = "Saigon, Vietnam"
+  date_start = "2014-09-01"
+  date_end = "2015-08-01"
+
+[[experience]]
+  title = "Research Scientist"
+  company = "RedOne Technologies"
+  company_url = ""
+  location = "Gwangju, S. Korea"
+  date_start = "2014-03-01"
+  date_end = "2014-09-01"
 
 +++
