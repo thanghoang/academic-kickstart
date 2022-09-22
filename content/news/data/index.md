@@ -1,6 +1,11 @@
 ---
 
 news:
+
+  - date: 2022-09-22
+    title: Paper on Proof of Retrievability accepted to [NDSS 2023](https://www.ndss-symposium.org) 
+    highlight: 1
+
   - date: 2022-07-01
     title: Got a seed grant from CCI-SW. Thanks for your continuous support!
     highlight: 1
