@@ -44,7 +44,7 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf:
+url_pdf: https://eprint.iacr.org/2022/1417.pdf
 url_code: 
 url_dataset:
 url_poster:
