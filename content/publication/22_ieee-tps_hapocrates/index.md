@@ -2,7 +2,7 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Harpocrates: Privacy-Preserving and Immutable Audit Log for Sensitive Data Operations"
-authors: [Mohit Bhasi Thazhath, Jan Michalak, Thang Hoang]
+authors: [Mohit Bhasi Thazhath*, Jan Michalak*, Thang Hoang]
 date: 2022-12-14T00:00:00-07:00
 #doi: " "
 

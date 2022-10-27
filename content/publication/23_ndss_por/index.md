@@ -2,7 +2,7 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "Efficient Dynamic Proof of Retrievability for Cold Storage"
-authors: [Tung Le, Pengzhi Huang, Attila A. Yavuz, Elaine Shi, Thang Hoang]
+authors: [Tung Le*, Pengzhi Huang, Attila A. Yavuz, Elaine Shi, Thang Hoang]
 date: 2023-02-01T00:00:00-07:00
 #doi: " "
 

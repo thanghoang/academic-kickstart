@@ -85,6 +85,7 @@
   </div>
   <div class="col-12 col-lg-8">
 
+    
     {{ with $st.Content }}{{ . }}{{ end }}
 
     {{ range $post := $query }}
@@ -98,10 +99,8 @@
         {{ partial "li_compact" . }}
       {{ end }}
     {{end}}
-
- 
-    
  
 
+    <small>*<u>underlined</u> indicates my current/former advisees at the time of initial/completion of the project. </small>
   </div>
 </div>
