@@ -2,6 +2,10 @@
 
 news:
 
+  - date: 2022-10-26
+    title: Papers on blockchain-based audit log and set accumulator accepted to [IEEE TPS](http://www.sis.pitt.edu/lersais/conference/tps/2022/) 
+    highlight: 1
+
   - date: 2022-09-22
     title: Paper on Proof of Retrievability accepted to [NDSS 2023](https://www.ndss-symposium.org) 
     highlight: 1
