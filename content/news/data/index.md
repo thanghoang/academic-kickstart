@@ -3,7 +3,7 @@
 news:
 
   - date: 2022-10-26
-    title: Papers on blockchain-based audit log and set accumulator accepted to [IEEE TPS 2022](http://www.sis.pitt.edu/lersais/conference/tps/2022/) 
+    title: Two papers on Blockchain-based Audit Log and Dynamic Set Accumulator accepted to [IEEE TPS 2022](http://www.sis.pitt.edu/lersais/conference/tps/2022/) 
     highlight: 1
 
   - date: 2022-09-22
