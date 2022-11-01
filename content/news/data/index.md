@@ -3,7 +3,7 @@
 news:
 
   - date: 2022-11-01
-    title: Paper on Zero-Knowledge Machine Learning conditionally accepted to [PETS 2023](https://petsymposium.org) 
+    title: One paper conditionally accepted to [PETS 2023](https://petsymposium.org) 
     highlight: 1
 
   - date: 2022-10-26
