@@ -2,6 +2,10 @@
 
 news:
 
+  - date: 2022-11-01
+    title: Paper on Zero-Knowledge Machine Learning conditionally accepted to [PETS 2023](https://petsymposium.org) 
+    highlight: 1
+
   - date: 2022-10-26
     title: Two papers on Blockchain-based Audit Log and Dynamic Set Accumulator accepted to [IEEE TPS 2022](http://www.sis.pitt.edu/lersais/conference/tps/2022/) 
     highlight: 1
@@ -12,7 +16,7 @@ news:
 
   - date: 2022-07-01
     title: Got a seed grant from CCI-SW. Thanks for your continuous support!
-    highlight: 1
+    highlight: 0
 
   - date: 2022-03-23
     title: Got a REP grant from CCI. Thanks for your support!
