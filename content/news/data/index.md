@@ -2,6 +2,10 @@
 
 news:
 
+  - date: 2022-11-03
+    title: A vision paper on post-quantum distribtued cyberinfrastructure accepted to [IEEE TPS 2022](http://www.sis.pitt.edu/lersais/conference/tps/2022/) 
+    highlight: 1
+
   - date: 2022-11-01
     title: One paper conditionally accepted to [PETS 2023](https://petsymposium.org) 
     highlight: 1
