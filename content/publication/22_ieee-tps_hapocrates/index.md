@@ -25,7 +25,7 @@ publication_types: ["1"]
 publication: "IEEE International Conference on Trust, Privacy and Security in Intelligent Systems, and Applications"
 publication_short: "IEEE TPS"
 
-abstract: "The audit log is a crucial component to monitor fine-grained operations over sensitive data (e.g., personal, health) for security inspection and assurance. Since such data operations can be highly sensitive, it is vital to ensure that the audit log achieves not only validity and immutability, but also confidentiality against active threats to standard data regulations (e.g., HIPAA) com- pliance. Despite its critical needs, state-of-the-art privacy- preserving audit log schemes (e.g., Ghostor (NSDI’20), Calypso (VLDB’19)) do not fully obtain a high level of privacy, integrity, and immutability simultaneously, in which certain information (e.g., user identities) is still leaked in the log.
+abstract: "The audit log is a crucial component to monitor fine-grained operations over sensitive data (e.g., personal, health) for security inspection and assurance. Since such data operations can be highly sensitive, it is vital to ensure that the audit log achieves not only validity and immutability, but also confidentiality against active threats to standard data regulations (e.g., HIPAA) com- pliance. Despite its critical needs, state-of-the-art privacy- preserving audit log schemes (e.g., Ghostor (NSDI’20), Calypso (VLDB’19)) do not fully obtain a high level of privacy, integrity, and immutability simultaneously, in which certain information (e.g., user identities) is still leaked in the log.\\
 
 In this paper, we propose Harpocrates, a new privacy-preserving and immutable audit log scheme. Harpocrates permits data store, share, and access oper- ations to be recorded in the audit log without leaking sen- sitive information (e.g., data identifier, user identity), while permitting the validity of data operations to be publicly verifiable. Harpocrates makes use of blockchain techniques to achieve immutability and avoid a single point of failure, while cryptographic zero-knowledge proofs are harnessed for confidentiality and public verifiability. We analyze the security of our proposed technique and prove that it achieves non-malleability and indistinguishability. We fully implemented Harpocrates and evaluated its performance on a real blockchain system (i.e., Hyperledger Fabric) deployed on a commodity platform (i.e., Amazon EC2). Experimental results demonstrated that Harpocrates is highly scalable and achieves practical performance.
 "
@@ -45,7 +45,7 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf: 
+url_pdf: https://arxiv.org/pdf/2211.04741.pdf
 url_code: 
 url_dataset:
 url_poster:
