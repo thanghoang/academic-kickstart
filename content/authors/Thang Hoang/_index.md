@@ -24,7 +24,7 @@ role: Assistant Professor
 interests:
 - Applied Cryptograhy
 - Security and Privacy
-
+- Fuzzy Cryptography
 
 education:
   courses:
@@ -83,4 +83,4 @@ user_groups:
 I am an Assistant Professor in the department of <a href="https://cs.vt.edu/">Computer Science</a> at <a href="https://vt.edu">Virginia Tech</a>. Prior to joining VT,
 I was a Postdoctoral Fellow hosted by Prof. [Elaine Shi](http://elaineshi.com) at [Carnegie Mellon University](https://www.cs.cmu.edu) (CMU), and a Research Associate hosted by Prof. [Attila A. Yavuz](http://www.csee.usf.edu/~attilaayavuz/) at the [University of South Florida](https://www.usf.edu) (USF). I received my PhD degree from USF in August 2020. 
 
-My research spans the domains of applied cryptography and machine learning, with special interests in privacy-enhancing technologies. I am interested in zero-knowledge proofs, multi-party computation, oblivious RAM and searchable encryption.
+My research spans the domains of cybersecurity and applied cryptography. I am interested in privacy, secure and verifiable computation, zero-knowledge proof, fuzzy cryptography, and trustworthy machine learning.
