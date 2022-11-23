@@ -4,6 +4,15 @@
 ---
 services:
 
+
+- year: 2023
+  venue: "[IEEE S&P](https://www.ieee-security.org/TC/SP2023/index.html) (Short-Talks Chair)"
+  service_type: 2
+
+- year: 2022
+  venue: "[Vietnam CBC](https://viasm.edu.vn/hdkh/cbc2022) (Program Chair)"
+  service_type: 2
+  
 - year: 2023
   venue: "[PETS](https://petsymposium.org)"
   service_type: 3
@@ -26,7 +35,7 @@ services:
   service_type: 3
 
 - year: 2022
-  venue: "[IEEE S&P](https://www.ieee-security.org/TC/SP2022/index.html)"
+  venue: "[IEEE S&P](https://www.ieee-security.org/TC/SP2022/index.html)  (Short-Talks Chair)"
   service_type: 2
 
 

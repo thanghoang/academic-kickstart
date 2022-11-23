@@ -10,6 +10,7 @@
   {{ $items_count = 65535 }}
 {{ else }}
   {{ $items_count = $items_count | default 5 }}
+  {{/* Thang edit */}}
 {{ end }}
 {{ $items_sort := $st.Params.content.order | default "desc" }}
 
