@@ -45,8 +45,17 @@
   {{ $query = where $query "Date" "<" now }}
 {{ end }}
 
-
 {{ $count := len $query }}
+
+{{/* Thang edit start */}}
+{{ $currYear := int (now.Format "2006") }}
+{{ $currYear = sub $currYear 1 }}
+{{ $filterDate := print $currYear "-01-01" "T00:00:00-05:00" }}
+{{ $filterDate = time $filterDate }}
+{{ $query = where $query "Date" ">="  $filterDate }}
+{{ $count := len $query }}
+{{/* Thang edit end */}}
+
 
 {{/* Sort */}}
 {{ $sort_by := "Date" }}
@@ -54,9 +63,12 @@
 
 {{/* Offset and Limit */}}
 {{ if gt $items_offset 0 }}
-  {{ $query = first $items_count (after $items_offset $query) }}
+  {{/* Thang edit replace this with below $query = first $items_count (after $items_offset $query) */}}
+  {{ $query = first $count (after $items_offset $query) }}
 {{ else }}
-  {{ $query = first $items_count $query }}
+
+  {{/* Thang edit replace this with below  $query = first $items_count $query */}}
+  {{ $query = first $count $query }}
 {{ end }}
 
 {{/* Localisation */}}
