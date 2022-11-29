@@ -1,6 +1,9 @@
 ---
 
 news:
+  - date: 2022-11-29
+    title: Paper on cancellable biometric accepted to [IEEE TIFS](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10206). Paper on zero-knowledge machine learning accepted to [PETS 2023](https://petsymposium.org)  after shepherding.
+    highlight: 1
 
   - date: 2022-11-03
     title: A vision paper on post-quantum distribtued cyberinfrastructure accepted to [IEEE TPS 2022](http://www.sis.pitt.edu/lersais/conference/tps/2022/) 
