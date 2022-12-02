@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "AVET: A Novel Transform Function To Improve Cancellable Biometrics Security"
+title: "AVET: A Novel Transform Function to Improve Cancellable Biometrics Security"
 authors: [Thao M. Dang, Thuc D. Nguyen, Thang Hoang, Hyunseok Kim, Andrew Beng Jin Teoh, Deokjai Choi]
 date: 2022-12-20T21:28:55-07:00
 #doi: " "
