@@ -1,8 +1,20 @@
-<!-- service_type: 1 : PC, 2: Conf Reviewer, 3: Chair  4: Editor ...-->
 <!-- service_type: 1 Editor, 2 Chair, 3 PC, 4 Journal Reviewer, 5 Conf External Reviewer
 <!-- pub_type: 1 : conference, 2: journal,  -->
 ---
 services:
+
+
+- year: 2024
+  venue: "[PETS](https://petsymposium.org)"
+  service_type: 3
+
+- year: 2023
+  venue: "[IEEE MASS](https://cis.temple.edu/ieeemass2023/) (S\&P track)"
+  service_type: 3
+
+- year: 2023
+  venue: "[ACSAC](https://www.acsac.org)"
+  service_type: 3
 
 
 - year: 2023

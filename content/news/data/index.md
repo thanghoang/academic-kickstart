@@ -7,7 +7,7 @@ news:
     highlight: 1
 
   - date: 2023-03-01
-    title: Invited to serve on PC of [PETS 2024](https://petsymposium.org/), [ACSAC 2023](https://www.acsac.org/), and [IEEE MASS 2023](https://cis.temple.edu/ieeemass2023/programcommittee.html). Also, invited to participate in [SaTC Vision 2.0 Workshop](https://cdis.wisc.edu/satc2/)
+    title: Invited to serve on PC of [PETS 2024](https://petsymposium.org/), [ACSAC 2023](https://www.acsac.org/), and [IEEE MASS 2023](https://cis.temple.edu/ieeemass2023/programcommittee.html). Also, invited to participate in [SaTC Vision 2.0 Workshop](https://cdis.wisc.edu/satc2/).
     highlight: 0
 
   - date: 2022-11-29
