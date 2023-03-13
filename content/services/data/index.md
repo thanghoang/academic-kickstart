@@ -9,7 +9,7 @@ services:
   service_type: 3
 
 - year: 2023
-  venue: "[IEEE MASS](https://cis.temple.edu/ieeemass2023/) (S\&P track)"
+  venue: "[IEEE MASS](https://cis.temple.edu/ieeemass2023/) (S&P track)"
   service_type: 3
 
 - year: 2023
