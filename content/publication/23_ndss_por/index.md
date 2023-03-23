@@ -49,7 +49,7 @@ url_code: https://github.com/vt-asaplab/porla
 url_dataset:
 url_poster:
 url_project:
-url_slides: 
+url_slides:  slides/23_ndss_porla.pptx
 url_source:
 url_video:
 
