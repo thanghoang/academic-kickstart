@@ -3,7 +3,7 @@
 news:
 
   - date: 2023-03-02
-    title: Got a seed grant from 4-VA for pre-tenure faculty. Thanks for your support!
+    title: Got a seed grant from 4-VA for pre-tenure faculty. Thanks for your generous support!
     highlight: 1
 
   - date: 2023-03-01
