@@ -95,11 +95,11 @@ phone_text ="541-230-tu+s"
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
-address = {street = "VT KnowledgeWorks II, Suite 2216, 2202 Kraft Drive", city = "Blacksburg", region = "VA", postcode = "24061", country = "United States", country_code = "US"}
+address = {street = "Gilbert Place Building, Room 4304, 220 Gilbert Street", city = "Blacksburg", region = "VA", postcode = "24060", country = "United States", country_code = "US"}
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
-coordinates = {latitude = "37.19894", longitude = "-80.40807"}
+coordinates = {latitude = "37.23320965711652", longitude = "-80.4218430620265"}
 
 # Directions for visitors to locate you.
 #directions = "Enter Building 1 and take the stairs to Office 200 on Floor 2"
