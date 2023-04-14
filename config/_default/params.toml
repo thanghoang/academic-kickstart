@@ -95,7 +95,7 @@ phone_text ="541-230-tu+s"
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
-address = {street = "Gilbert Place Building, Room 4304, 220 Gilbert Street", city = "Blacksburg", region = "VA", postcode = "24060", country = "United States", country_code = "US"}
+address = {street = "Gilbert Place, Room 4304, 220 Gilbert Street", city = "Blacksburg", region = "VA", postcode = "24060", country = "United States", country_code = "US"}
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
