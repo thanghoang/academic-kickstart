@@ -2,6 +2,10 @@
 
 news:
 
+  - date: 2023-04-25
+    title: Paper on privacy-enhanced blockchain accepted to [ICCCN 2023](http://www.icccn.org).
+    highlight: 0
+
   - date: 2023-03-02
     title: Got a seed grant from 4-VA for pre-tenure faculty. Thanks for your generous support!
     highlight: 1
