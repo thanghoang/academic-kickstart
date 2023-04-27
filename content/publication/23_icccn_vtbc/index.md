@@ -22,7 +22,7 @@ publishDate: 2023-04-25T00:00:00-07:00
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: "32nd International Conference on Computer Communications and Networks"
+publication: "International Conference on Computer Communications and Networks"
 publication_short: "ICCCN"
 
 abstract: ""
