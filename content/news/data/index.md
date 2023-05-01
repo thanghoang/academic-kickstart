@@ -1,6 +1,9 @@
 ---
 
 news:
+  - date: 2023-05-01
+    title: Paper on oblivious encrypted search conditionally accepted to [PETS 2023](https://petsymposium.org).
+    highlight: 0
 
   - date: 2023-04-25
     title: Paper on privacy-enhanced blockchain accepted to [ICCCN 2023](http://www.icccn.org).
