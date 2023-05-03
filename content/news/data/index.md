@@ -2,7 +2,7 @@
 
 news:
   - date: 2023-05-01
-    title: Paper on oblivious encrypted search conditionally accepted to [PETS 2023](https://petsymposium.org).
+    title: Paper on oblivious encrypted search conditionally accepted to [PETS 2023.4](https://petsymposium.org).
     highlight: 0
 
   - date: 2023-04-25
@@ -18,7 +18,7 @@ news:
     highlight: 0
 
   - date: 2022-11-29
-    title: Paper on cancellable biometric accepted to [IEEE TIFS](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10206). Paper on zero-knowledge machine learning finally accepted to [PETS 2023](https://petsymposium.org).
+    title: Paper on cancellable biometric accepted to [IEEE TIFS](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=10206). Paper on zero-knowledge machine learning finally accepted to [PETS 2023.2](https://petsymposium.org).
     highlight: 0
 
   - date: 2022-11-03
@@ -26,7 +26,7 @@ news:
     highlight: 0
 
   - date: 2022-11-01
-    title: One paper conditionally accepted to [PETS 2023](https://petsymposium.org).
+    title: One paper conditionally accepted to [PETS 2023.2](https://petsymposium.org).
     highlight: 0
 
   - date: 2022-10-26
