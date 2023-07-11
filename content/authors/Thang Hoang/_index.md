@@ -24,7 +24,7 @@ role: Assistant Professor
 interests:
 - Applied Cryptograhy
 - Security and Privacy
-- Fuzzy Cryptography
+- Biometrics
 
 education:
   courses:
