@@ -27,7 +27,7 @@ date_format = "Jan 2006"
   date_end = "2020-12-01"
 
 [[experience]]
-  title = "Research Assistant"
+  title = "Graduate Research Assistant & Research Associate"
   company = "University of South Florida"
   company_url = ""
   location = "Tampa, FL"
