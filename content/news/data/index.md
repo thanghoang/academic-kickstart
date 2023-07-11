@@ -1,6 +1,10 @@
 ---
 
 news:
+  - date: 2023-06-30
+    title: Got the Collaborative Research Grant from 4-VA. Thanks for your continuous support!
+    highlight: 1
+
   - date: 2023-05-01
     title: Paper on oblivious encrypted search conditionally accepted to [PETS 2023.4](https://petsymposium.org).
     highlight: 0
