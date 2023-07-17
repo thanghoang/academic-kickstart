@@ -44,12 +44,12 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf: 
+url_pdf: https://petsymposium.org/popets/2023/popets-2023-0061.pdf
 url_code: https://github.com/vt-asaplab/ezDPS
 url_dataset: 
 url_poster:
 url_project:
-url_slides: 
+url_slides: slides/23_pets_ezDPS.pptx
 url_source:
 url_video:
 

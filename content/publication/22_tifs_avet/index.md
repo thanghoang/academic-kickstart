@@ -4,7 +4,7 @@
 title: "AVET: A Novel Transform Function to Improve Cancellable Biometrics Security"
 authors: [Thao M. Dang, Thuc D. Nguyen, Thang Hoang, Hyunseok Kim, Andrew Beng Jin Teoh, Deokjai Choi]
 date: 2022-12-20T21:28:55-07:00
-#doi: " "
+doi: "10.1109/TIFS.2022.3230212"
 
 #award: "Best Paper Award"
 

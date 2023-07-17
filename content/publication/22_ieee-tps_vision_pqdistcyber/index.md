@@ -4,7 +4,7 @@
 title: "Distributed Cyber-infrastructures and Artificial Intelligence in Hybrid Post-Quantum Era"
 authors: [Attila A Yavuz, Saif Nouma, Thang Hoang, Duncan Earl, Scott Packard]
 date: 2022-12-14T00:00:00-07:00
-#doi: " "
+doi: "10.1109/TPS-ISA56441.2022.00014"
 
 #award: "Best Paper Award"
 

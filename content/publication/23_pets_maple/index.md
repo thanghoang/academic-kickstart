@@ -4,7 +4,7 @@
 title: "MAPLE: A Metadata-Hiding Policy-Controllable Encrypted Search Platform with Minimal Trust"
 authors: [Tung Le*, Thang Hoang]
 date: 2023-07-11T00:00:00-07:00
-#doi: " "
+doi: "10.56553/popets-2023-0094"
 
 #award: "Best Paper Award"
 
@@ -25,7 +25,9 @@ publication_types: ["1"]
 publication: "Privacy Enhancing Technologies Symposium"
 publication_short: "PETS"
 
-abstract: ""
+abstract: "Commodity encrypted storage platforms (e.g., IceDrive, pCloud) permit data store and sharing across multiple users while preserving data confidentiality. However, end-to-end encryption may not be sufficient since it only offers confidentiality when the data is at rest or in transit. Meanwhile, sensitive information can be leaked from metadata representing activities during data operations (e.g., query, processing). Recent encrypted search platforms such as DORY (OSDI’20) or DURASIFT (WPES’19) permit multi-user data query functionalities, while protecting metadata privacy. However, they either incur a high processing overhead or offer limited secu- rity/functionality, and require strong trust assumptions.\\
+
+We propose MAPLE, a new metadata-hiding encrypted search platform that offers query functionalities (search, update) on the shared data across multiple users with complex policy controls. MAPLE protects metadata privacy all the time during query processing, while achieving significantly (asymptotically) lower processing overhead than state-of-the-art platforms. The core technique of MAPLE is the design of oblivious data structures for search index and access control coupled with secure computation techniques to enable efficient query processing with a minimal trust. We fully implemented MAPLE and evaluated its performance on commodity cloud (Amazon EC2) under real settings. Experimental results showed that MAPLE achieved a concrete performance comparable with its counterparts, while offering provably stronger security guarantees and more diverse functionalities."
 
 # Summary. An optional shortened abstract.
 summary: ""
@@ -42,12 +44,12 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf: 
-url_code: 
+url_pdf: https://eprint.iacr.org/2023/1105.pdf
+url_code: https://github.com/vt-asaplab/maple
 url_dataset: 
 url_poster:
 url_project:
-url_slides: 
+url_slides: slides/23_pets_maple.pptx
 url_source:
 url_video:
 
