@@ -1,6 +1,10 @@
 ---
 
 news:
+  - date: 2023-07-18
+    title: Got the Cybersecurity Research Grant from CCI. Thanks for your support!
+    highlight: 1
+
   - date: 2023-06-30
     title: Got the Collaborative Research Grant from 4-VA. Thanks for your continuous support!
     highlight: 1
