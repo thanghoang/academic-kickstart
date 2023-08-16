@@ -4,7 +4,7 @@
 title: "ezDPS: An Efficient and Zero-Knowledge Machine Learning Inference Pipeline"
 authors: [Haodi Wang*, Thang Hoang]
 date: 2023-07-10T00:00:00-07:00
-#doi: " "
+doi: "10.56553/popets-2023-0061"
 
 #award: "Best Paper Award"
 
