@@ -2,7 +2,7 @@
 
 news:
   - date: 2024-02-29
-    title: Paper on attack on searchable encryption accepted to [ACM CODASPY 2024](https://www.codaspy.org/2024/). This work is part of Jacob's Master thesis, which he just succefully defended. Congrats Jacob!
+    title: Paper on attack on searchable encryption accepted to [ACM CODASPY 2024](https://www.codaspy.org/2024/). This work is part of Jacob's MS thesis, which he just also succefully defended. Congrats Jacob!
     highlight: 0
   - date: 2024-02-26
     title: Received an NSF Travel Grant.
