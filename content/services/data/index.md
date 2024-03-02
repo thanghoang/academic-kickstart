@@ -3,10 +3,22 @@
 ---
 services:
 
+- year: 2024
+  venue: "[IEEE S&P](https://www.ieee-security.org/TC/SP2024/index.html) (Student Travel Grant Chair)"
+  service_type: 2
+
+- year: 2024
+  venue: "[ACSAC](https://acsac.org)"
+  service_type: 3
 
 - year: 2024
   venue: "[PETS](https://petsymposium.org)"
   service_type: 3
+
+- year: 2023
+  venue: "[Inscrypt](https://inscrypt2023.github.io)"
+  service_type: 3
+
 
 - year: 2023
   venue: "[IEEE MASS](https://cis.temple.edu/ieeemass2023/) (S&P track)"
