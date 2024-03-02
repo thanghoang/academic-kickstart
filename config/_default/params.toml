@@ -90,8 +90,8 @@ show_related = {docs = true, page = false, post = true, project = true, publicat
 # Enter contact details (optional). To hide a field, clear it to "".
 email = "thanghoang@vt.edu"
 email_text ="thanghoang(at)vt(dot)edu"
-phone = "541-230-8807"
-phone_text ="541-230-tu+s"
+phone = "540-231-0908"
+phone_text ="540-231-+x+t"
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
