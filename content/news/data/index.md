@@ -1,6 +1,11 @@
 ---
 
 news:
+
+  - date: 2024-05-01
+    title: Paper on privacy-preserving machine learning with lightweight secure hardware accepted to [PETS 2024](https://petsymposium.org).
+    highlight: 0
+  
   - date: 2024-02-29
     title: Paper on attack on searchable encryption accepted to [ACM CODASPY 2024](https://www.codaspy.org/2024/). This work is part of Jacob's MS thesis, which he just also succefully defended. Congrats Jacob!
     highlight: 0
