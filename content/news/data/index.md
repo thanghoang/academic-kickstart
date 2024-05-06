@@ -2,6 +2,10 @@
 
 news:
 
+  - date: 2024-05-06
+    title: One paper accepted to [USENIX Security 2024](https://www.usenix.org/conference/usenixsecurity24). Congrats Tung!
+    highlight: 0
+    
   - date: 2024-05-01
     title: Paper on privacy-preserving machine learning with lightweight secure hardware accepted to [PETS 2024](https://petsymposium.org).
     highlight: 0
