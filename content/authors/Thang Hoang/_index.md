@@ -80,7 +80,7 @@ user_groups:
 
 ---
 
-I am an Assistant Professor in the department of <a href="https://cs.vt.edu/">Computer Science</a> at <a href="https://vt.edu">Virginia Tech</a> and a <a href="https://cyberinitiative.org">CCI Research Fellow</a>. Prior to joining VT,
-I was a Postdoctoral Fellow hosted by Prof. [Elaine Shi](http://elaineshi.com) at [Carnegie Mellon University](https://www.cs.cmu.edu) (CMU), and a Research Associate hosted by Prof. [Attila A. Yavuz](http://www.csee.usf.edu/~attilaayavuz/) at the [University of South Florida](https://www.usf.edu) (USF). I received my PhD degree from USF in August 2020. 
+I am an Assistant Professor in the department of <a href="https://cs.vt.edu/">Computer Science</a> @ <a href="https://vt.edu">Virginia Tech</a> and a <a href="https://cyberinitiative.org">CCI Researcher</a>. Prior to joining VT,
+I was a Postdoctoral Fellow @ [Carnegie Mellon University](https://www.cs.cmu.edu) (CMU) hosted by Prof. [Elaine Shi](http://elaineshi.com) and a Research Associate @ [University of South Florida](https://www.usf.edu) (USF) hosted by Prof. [Attila A. Yavuz](http://www.csee.usf.edu/~attilaayavuz/). I received my PhD degree from USF in August 2020. 
 
 My research spans the domains of cybersecurity and applied cryptography. I am interested in privacy, secure and verifiable computation, zero-knowledge proof, fuzzy cryptography, and trustworthy machine learning.

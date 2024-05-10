@@ -3,7 +3,7 @@
 news:
 
   - date: 2024-05-06
-    title: One paper accepted to [USENIX Security 2024](https://www.usenix.org/conference/usenixsecurity24). Congrats Tung!
+    title: Paper on encrypted search accepted to [USENIX Security 2024](https://www.usenix.org/conference/usenixsecurity24). Congrats Tung!
     highlight: 0
     
   - date: 2024-05-01
