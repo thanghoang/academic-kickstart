@@ -5,7 +5,7 @@ title: "Gait Authentication on Mobile Phone Using Biometric Cryptosystem and Fuz
 authors: [Thang Hoang, Thuc Nguyen, Deokjai Choi]
 date: 2015-11-06T21:42:28-07:00
 doi: "10.1007/s10207-015-0273-1"
-
+highlight: 0
 # Schedule page publish date (NOT publication's date).
 publishDate: 2015-11-06T21:42:28-07:00
 

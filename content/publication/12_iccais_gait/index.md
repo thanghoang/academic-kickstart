@@ -7,7 +7,7 @@ date: 2012-11-01T21:28:55-07:00
 doi: "10.1109/ICCAIS.2012.6466615"
 
 award: "Best Paper Award"
-
+highlight: 0
 # Schedule page publish date (NOT publication's date).
 publishDate: 2012-11-01T21:28:55-07:00
 

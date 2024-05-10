@@ -5,7 +5,7 @@ title: "S3ORAM: A Computation-Efficient and Constant Client Bandwidth Blowup ORA
 authors: [Thang Hoang, Ceyhun D. Ozkaptan, Attila A. Yavuz, Jorge Guajardo, Tam Nguyen]
 date: 2017-10-06T21:41:20-07:00
 doi: "10.1145/3133956.3134090"
-
+highlight: 1
 # Schedule page publish date (NOT publication's date).
 publishDate: 2017-10-06T21:41:20-07:00
 

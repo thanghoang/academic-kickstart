@@ -4,7 +4,7 @@ title: "A Multi-Server Oblivious Dynamic Searchable Encryption Framework"
 authors: [Thang Hoang, Attila A. Yavuz, F. Betül Durak, Jorge Guajardo]
 date: 2019-01-06T21:42:55-07:00
 doi: "10.3233/JCS-191300"
-
+highlight: 0
 # Schedule page publish date (NOT publication's date).
 publishDate: 2019-01-06T21:42:55-07:00
 

@@ -5,7 +5,7 @@ title: "A Lightweight Gait Authentication on Mobile Phone Regardless of Installa
 authors: [Thang Hoang, Deokjai Choi, Viet Vo, Anh Nguyen, Thuc Nguyen]
 date: 2013-07-06T21:40:53-07:00
 doi: "10.1007/978-3-642-39218-4_7"
-
+highlight: 1
 # Schedule page publish date (NOT publication's date).
 publishDate: 2013-07-06T21:40:53-07:00
 

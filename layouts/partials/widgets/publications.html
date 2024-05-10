@@ -16,6 +16,7 @@
 
 {{/* Query */}}
 {{ $query := where site.RegularPages "Type" $items_type }}
+
 {{ $archive_page := site.GetPage "Section" $items_type }}
 
 {{/* Filters */}}
@@ -45,14 +46,25 @@
   {{ $query = where $query "Date" "<" now }}
 {{ end }}
 
-{{ $count := len $query }}
+
+
 
 {{/* Thang edit start */}}
 {{ $currYear := int (now.Format "2006") }}
-{{ $currYear = sub $currYear 1 }}
-{{ $filterDate := print $currYear "-01-01" "T00:00:00-05:00" }}
-{{ $filterDate = time $filterDate }}
-{{ $query = where $query "Date" ">="  $filterDate }}
+{{ $TwoYearsAgo := sub $currYear 1 }}
+{{ $filterDateTwoYearsAgo := print $TwoYearsAgo "-01-01" "T00:00:00-05:00" }}
+{{ $filterDateTwoYearsAgo = time $filterDateTwoYearsAgo }}
+{{ $queryA := where  $query  "Date" ">="  $filterDateTwoYearsAgo    }}
+
+
+{{$FiveYearsAgo := sub $currYear 5}}
+{{ $filterDateFiveYearsAgo := print $FiveYearsAgo "-01-01" "T00:00:00-05:00" }}
+{{ $filterDateFiveYearsAgo = time $filterDateFiveYearsAgo }}
+
+{{ $queryB := where  $query  "Date" ">="  $filterDateFiveYearsAgo    }}
+{{ $queryB = where  $queryB  "Params.highlight" "=" 1    }}
+
+{{$query = $queryA | union $queryB}}
 {{ $count := len $query }}
 {{/* Thang edit end */}}
 

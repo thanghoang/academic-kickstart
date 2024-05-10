@@ -5,7 +5,7 @@ title: "Improving Gait Cryptosystem Security Using Gray Code Quantization and Li
 authors: [Lam Tran, Thang Hoang, Thuc Nguyen, Deokjai Choi]
 date: 2017-11-06T21:41:33-07:00
 doi: "10.1007/978-3-319-69659-1_12"
-
+highlight: 0
 # Schedule page publish date (NOT publication's date).
 publishDate: 2017-11-06T21:41:33-07:00
 

@@ -5,7 +5,7 @@ title: "Adaptive Cross-Device Gait Recognition Using Mobile Accelerometer"
 authors: [Thang Hoang, Thuc D. Nguyen, Chuyen Luong, Son Do, Deokjai Choi]
 date: 2013-06-06T21:42:17-07:00
 doi: "10.3745/JIPS.2013.9.2.333"
-
+highlight: 0
 # Schedule page publish date (NOT publication's date).
 publishDate: 2013-06-06T21:42:17-07:00
 

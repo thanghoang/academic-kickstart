@@ -5,7 +5,7 @@ title: "MOSE: Practical Multi-User Oblivious Storage via Secure Enclaves"
 authors: [Thang Hoang, Rouzbeh Behnia, Yeongjin Jang, Attila A. Yavuz]
 date: 2020-03-06T21:41:50-07:00
 doi: "10.1145/3374664.3375749"
-
+highlight: 1
 # Schedule page publish date (NOT publication's date).
 publishDate: 2020-03-06T21:41:50-07:00
 

@@ -5,7 +5,7 @@ title: "Efficient Oblivious Data Structures for Database Services on the Cloud"
 authors: [Thang Hoang, Ceyhun D. Ozkaptan, Gabriel Hackebeil, Attila A. Yavuz]
 date: 2018-12-06T21:42:40-07:00
 doi: "10.1109/TCC.2018.2879104"
-
+highlight: 1
 
 # Schedule page publish date (NOT publication's date).
 publishDate: 2018-12-06T21:42:40-07:00

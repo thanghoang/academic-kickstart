@@ -5,7 +5,7 @@ title: "A Metadata-Hiding File-Sharing System with Malicious Security"
 authors: [Weikeng Chen, Thang Hoang, Jorge Guajardo, Attila A. Yavuz]
 date: 2022-02-27T21:28:55-07:00
 doi: "10.14722/ndss.2022.24161"
-
+highlight: 1
 #award: "Best Paper Award"
 
 

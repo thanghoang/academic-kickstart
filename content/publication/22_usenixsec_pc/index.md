@@ -5,7 +5,7 @@ title: "Polynomial Commitment with a One-to-Many Prover and Applications"
 authors: [Jiaheng Zhang, Tiancheng Xie, Thang Hoang, Elaine Shi, Yupeng Zhang]
 date: 2022-08-10T21:28:55-07:00
 #doi: " "
-
+highlight: 1
 #award: "Best Paper Award"
 
 

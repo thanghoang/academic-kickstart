@@ -5,7 +5,7 @@ title: "A Secure Searchable Encryption Framework for PrivacyCritical Cloud Stora
 authors: [Thang Hoang, Attila A. Yavuz, Jorge Guajardo]
 date: 2018-12-06T21:42:47-07:00
 doi: "10.1109/TSC.2019.2897096"
-
+highlight: 1
 # Schedule page publish date (NOT publication's date).
 publishDate: 2019-01-06T21:42:47-07:00
 

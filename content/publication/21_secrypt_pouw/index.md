@@ -5,7 +5,7 @@ title: "Proof-of-Useful-Randomness: Mitigating the Energy Waste in Blockchain Pr
 authors: [Efe Ulas Akay Seyitoglu, Attila A. Yavuz, Thang Hoang]
 date: 2021-04-16T21:28:55-07:00
 doi: "10.5220/0010519204120419"
-
+highlight: 0
 #award: "Best Paper Award"
 
 # Schedule page publish date (NOT publication's date).

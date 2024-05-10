@@ -29,10 +29,11 @@ subtitle = ""
     category = ""
     publication_type = ""
     author = ""
-    exclude_featured = false
+    exclude_featured = true
     exclude_future = false
     exclude_past = false
     exclude_past_year = true # Thang edit to display publications in the current year (or more than count) only
+    highlight = 1
 [design]
   # Toggle between the various page layout types.
   #   1 = List

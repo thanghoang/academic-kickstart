@@ -5,7 +5,7 @@ title: "MUSES: Efficient Multi-User Searchable Encrypted Database"
 authors: [Tung Le*, Rouzbeh Behnia, Jorge Guajardo, Thang Hoang]
 date: 2024-08-12T00:00:00-07:00
 doi: ""
-
+highlight: "1"
 #award: "Best Paper Award"
 
 

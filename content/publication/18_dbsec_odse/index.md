@@ -5,7 +5,7 @@ title: "Oblivious Dynamic Searchable Encryption on Distributed Cloud Systems"
 authors: [Thang Hoang, Attila A. Yavuz, Betul F. Durak, Jorge Guajardo]
 date: 2018-07-06T21:41:41-07:00
 doi: "https://doi.org/10.1007/978-3-319-95729-6_8"
-
+highlight: 1
 award: "Best Paper Award"
 # Schedule page publish date (NOT publication's date).
 publishDate: 2018-07-06T21:41:41-07:00

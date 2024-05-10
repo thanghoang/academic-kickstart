@@ -5,7 +5,7 @@ title: "VTBC: Privatizing the Volume and Timing of Transactions for Blockchain A
 authors: [Trevor Miller*, Bobby Alvarez*, Thang Hoang]
 date: 2023-07-24T00:00:00-07:00
 #doi: " "
-
+highlight: 1
 #award: "Best Paper Award"
 
 

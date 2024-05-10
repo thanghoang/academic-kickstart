@@ -5,7 +5,7 @@ title: "On the Instability of Sensor Orientation in Gait Verification on Mobile 
 authors: [Thang Hoang, Deokjai Choi, Thuc Nguyen]
 date: 2015-07-06T21:41:02-07:00
 doi: "10.5220/0005572001480159"
-
+highlight: 0
 # Schedule page publish date (NOT publication's date).
 publishDate: 2015-07-06T21:41:02-07:00
 

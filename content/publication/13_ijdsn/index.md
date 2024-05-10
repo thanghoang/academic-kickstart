@@ -5,7 +5,7 @@ title: "Personalization in Mobile Activity Recognition System using KMedoids Clu
 authors: [Viet Q. Vo, Thang Hoang, Deokjai Choi]
 date: 2013-06-06T21:42:11-07:00
 doi: "10.1155/2013/315841"
-
+highlight: 0
 # Schedule page publish date (NOT publication's date).
 publishDate: 2013-06-06T21:42:11-07:00
 

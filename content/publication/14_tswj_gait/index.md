@@ -6,7 +6,7 @@ title: "Secure and Privacy Enhanced Gait Authentication on Smart Phone"
 authors: [Thang Hoang, Deokjai Choi]
 date: 2014-05-06T21:42:21-07:00
 doi: "10.1155/2014/438254"
-
+highlight: 0
 # Schedule page publish date (NOT publication's date).
 publishDate: 2014-05-06T21:42:21-07:00
 

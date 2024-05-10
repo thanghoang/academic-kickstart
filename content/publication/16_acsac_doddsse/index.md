@@ -5,7 +5,7 @@ title: "Practical and Secure Dynamic Searchable Encryption via Oblivious Access 
 authors: [Thang Hoang, Attila A. Yavuz, Jorge Guajardo]
 date: 2016-12-01T21:41:15-07:00
 doi: "10.1145/2991079.2991088"
-
+highlight: 1
 # Schedule page publish date (NOT publication's date).
 publishDate: 2016-12-01T21:41:15-07:00
 

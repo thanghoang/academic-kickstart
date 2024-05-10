@@ -5,7 +5,7 @@ title: "Multi-Model Long Short-Term Memory Network for Gait Recognition Using Wi
 authors: [Lam Tran*, Thang Hoang, Thuc Nguyen, Hyunil Kim, Deokjai Choi]
 date: 2021-01-25T21:28:55-07:00
 doi: "10.1109/ACCESS.2021.3056880"
-
+highlight: 0
 #award: "Best Paper Award"
 
 # Schedule page publish date (NOT publication's date).

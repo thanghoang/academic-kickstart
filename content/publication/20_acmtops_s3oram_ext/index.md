@@ -5,7 +5,7 @@ title: "A Multi-server ORAM Framework with Constant Client Bandwidth Blowup"
 authors: ['Thang Hoang', Attila A. Yavuz, Jorge Guajardo]
 date: 2020-01-01T21:43:01-07:00
 doi: "10.1145/3369108"
-
+highlight: 1
 # Schedule page publish date (NOT publication's date).
 publishDate: 2020-01-01T21:43:01-07:00
 

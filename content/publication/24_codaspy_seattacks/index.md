@@ -5,7 +5,7 @@ title: "Exploiting Update Leakage in Searchable Symmetric Encryption"
 authors: [Jacob Haltiwanger*, Thang Hoang]
 date: 2024-06-19T00:00:00-07:00
 doi: ""
-
+highlight: 1
 #award: "Best Paper Award"
 
 

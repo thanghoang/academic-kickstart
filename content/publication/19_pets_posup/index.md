@@ -5,7 +5,7 @@ title: "Hardware-Supported ORAM in Effect: Practical Oblivious Search and Update
 authors: [Thang Hoang, Muslum O. Ozmen, Yeongjin Jang, Attila A. Yavuz]
 date: 2019-07-06T21:41:45-07:00
 doi: "10.2478/popets-2019-0010"
-
+highlight: 1
 # Schedule page publish date (NOT publication's date).
 publishDate: 2019-07-06T21:41:45-07:00
 

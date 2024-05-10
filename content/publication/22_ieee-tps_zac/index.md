@@ -5,7 +5,7 @@ title: "ZAC: Efficient Zero-Knowledge Dynamic Universal Accumulator and Applicat
 authors: [Hai-Van Dang, Tran Phuong, Thuc Nguyen, Thang Hoang]
 date: 2022-12-14T00:00:00-07:00
 doi: "10.1109/TPS-ISA56441.2022.00038"
-
+highlight: 0
 #award: "Best Paper Award"
 
 

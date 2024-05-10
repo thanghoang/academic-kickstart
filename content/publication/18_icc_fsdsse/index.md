@@ -5,7 +5,7 @@ title: "Forward-Private Dynamic Searchable Symmetric Encryption with Efficient S
 authors: [Muslum O. Ozmen, Thang Hoang, Attila A. Yavuz]
 date: 2018-05-06T21:41:37-07:00
 doi: "https://doi.org/10.1109/ICC.2018.8422480"
-
+highlight: 0
 # Schedule page publish date (NOT publication's date).
 publishDate: 2018-05-06T21:41:37-07:00
 

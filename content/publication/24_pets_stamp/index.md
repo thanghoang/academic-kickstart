@@ -5,7 +5,7 @@ title: "Efficient Privacy-Preserving Machine Learning with Lightweight Trusted H
 authors: [Pengzhi Huang, Thang Hoang,Yueying Li, Elaine Shi, G. Edward Suh]
 date: 2024-07-15T00:00:00-07:00
 doi: ""
-
+highlight: 1
 #award: "Best Paper Award"
 
 

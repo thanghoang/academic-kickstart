@@ -7,7 +7,7 @@ date: 2012-12-06T21:40:34-07:00
 doi: "10.1109/ISSPIT.2012.6621267"
 # Schedule page publish date (NOT publication's date).
 publishDate: 2012-12-06T21:40:34-07:00
-
+highlight: 0
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;

@@ -5,7 +5,7 @@ title: "Harpocrates: Privacy-Preserving and Immutable Audit Log for Sensitive Da
 authors: [Mohit Bhasi Thazhath*, Jan Michalak*, Thang Hoang]
 date: 2022-12-14T00:00:00-07:00
 doi: "10.1109/TPS-ISA56441.2022.00036"
-
+highlight: 1
 #award: "Best Paper Award"
 
 

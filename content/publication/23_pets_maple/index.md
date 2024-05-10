@@ -5,7 +5,7 @@ title: "MAPLE: A Metadata-Hiding Policy-Controllable Encrypted Search Platform w
 authors: [Tung Le*, Thang Hoang]
 date: 2023-07-11T00:00:00-07:00
 doi: "10.56553/popets-2023-0094"
-
+highlight: 1
 #award: "Best Paper Award"
 
 

@@ -5,7 +5,7 @@ title: "Efficient Dynamic Proof of Retrievability for Cold Storage"
 authors: [Tung Le*, Pengzhi Huang, Attila A. Yavuz, Elaine Shi, Thang Hoang]
 date: 2023-02-01T00:00:00-07:00
 doi: "10.14722/ndss.2023.23307"
-
+highlight: 1
 #award: "Best Paper Award"
 
 

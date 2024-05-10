@@ -5,7 +5,7 @@ title: "MACAO: A Maliciously-Secure and Client-Efficient Active ORAM Framework"
 authors: [Thang Hoang, Jorge Guajardo, Attila A. Yavuz]
 date: 2020-02-06T21:41:54-07:00
 doi: "10.14722/ndss.2020.24313"
-
+highlight: 1
 
 # Schedule page publish date (NOT publication's date).
 publishDate: 2020-02-06T21:41:54-07:00
