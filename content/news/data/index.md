@@ -2,6 +2,11 @@
 
 news:
 
+
+  - date: 2024-06-19
+    title: Paper on zero-knowledge machine learning accepted to [IEEE TDSC](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8858). Congrats Haodi!
+    highlight: 0
+
   - date: 2024-05-06
     title: Paper on encrypted search accepted to [USENIX Security 2024](https://www.usenix.org/conference/usenixsecurity24). Congrats Tung!
     highlight: 0

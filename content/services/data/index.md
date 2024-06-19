@@ -1,6 +1,6 @@
-<!-- service_type: 1 Editor, 2 Chair, 3 PC, 4 Journal Reviewer, 5 Conf External Reviewer
-<!-- pub_type: 1 : conference, 2: journal,  -->
 ---
+# service_type: 1 Editor, 2 Chair, 3 PC, 4 Journal Reviewer, 5 Conf External Reviewer
+# pub_type: 1 : conference, 2: journal
 services:
 
 - year: 2024

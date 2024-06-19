@@ -36,9 +36,11 @@
     {{$service_types :=slice}}
     {{ range $query }}
         {{$services:= .Params.services }}
+        
       <div class="view-list-item">
         <i class="" aria-hidden="true"></i>
         <div>I am involved with the following events</div>
+ 
         {{ range $services  }}
           {{ $years = $years | append .year}}
           {{ $service_types = $service_types | append .service_type}}
@@ -60,11 +62,11 @@
               {{end}}
               {{$venue_lst:= slice}}
               {{range sort (where (where $services "year" $curYear) "service_type" $curService_type) "venue" "desc"}}
-                {{$venue := .venue | markdownify}} 
+                {{$venue := .venue }} 
                 {{$venue_lst = $venue_lst | append $venue}}
               {{end}}
               {{if gt $len 0}}
-                <div class="pc">{{delimit $venue_lst ", "}}</div>
+                <div class="pc">{{delimit $venue_lst ", " | markdownify}}</div>
               {{end}}
 
             {{else if eq $curService_type 3 }}
@@ -74,11 +76,11 @@
               {{end}}
               {{$venue_lst:= slice}}
               {{range sort (where (where $services "year" $curYear) "service_type" $curService_type) "venue" "desc"}}
-                {{$venue := .venue | markdownify}} 
+                {{$venue := .venue }} 
                 {{$venue_lst = $venue_lst | append $venue}}
               {{end}}
               {{if gt $len 0}}
-                <div class="pc">{{delimit $venue_lst ", "}}</div>
+                <div class="pc">{{delimit $venue_lst ", " | markdownify}}</div>
               {{end}}
 
             {{else if eq $curService_type 4}}
@@ -88,11 +90,11 @@
               {{end}}
               {{$venue_lst:= slice}}
               {{range sort (where (where $services "year" $curYear) "service_type" $curService_type) "venue" "desc"}}
-                {{$venue := .venue | markdownify}} 
+                {{$venue := .venue }} 
                 {{$venue_lst = $venue_lst | append $venue}}
               {{end}}
               {{if gt $len 0}}
-                <div class="pc">{{delimit $venue_lst ", "}}</div>
+                <div class="pc">{{delimit $venue_lst ", " | markdownify}}</div>
               {{end}}
               
             {{else if eq $curService_type 5}}
@@ -102,11 +104,11 @@
               {{end}}
               {{$venue_lst:= slice}}
               {{range sort (where (where $services "year" $curYear) "service_type" $curService_type) "venue" "desc"}}
-                {{$venue := .venue | markdownify}} 
+                {{$venue := .venue }} 
                 {{$venue_lst = $venue_lst | append $venue}}
               {{end}}
               {{if gt $len 0}}
-                <div class="pc">{{delimit $venue_lst ", "}}</div>
+                <div class="pc">{{delimit $venue_lst ", " | markdownify}}</div>
               {{end}}
             {{else }}
               <!-- Other services, to be added-->
