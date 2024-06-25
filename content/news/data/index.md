@@ -3,7 +3,7 @@
 news:
 
   - date: 2024-06-25
-    title: Paper on attacking heterogenous federated learning accepted to [RAID 2024](https://raid2024.github.io). This work is part of Atharva's MS thesis, which he just also succefully defended. Congrats Atharva!
+    title: Paper on attacking heterogenous federated learning conditionally accepted to [RAID 2024](https://raid2024.github.io). This work is part of Atharva's MS thesis, which he just also succefully defended. Congrats Atharva!
     highlight: 0
 
   - date: 2024-06-19
