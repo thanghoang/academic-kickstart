@@ -1,11 +1,11 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "VTBC: Privatizing the Volume and Timing of Transactions for Blockchain Applications"
-authors: [Trevor Miller*, Bobby Alvarez*, Thang Hoang]
-date: 2023-07-24T00:00:00-07:00
-doi: "https://doi.org/10.1109/ICCCN58024.2023.10230098"
-highlight: 1
+title: "Breaking Privacy in Model-Heterogeneous Federated Learning"
+authors: [Atharva Haldankar*, Arman Riasi*, Hoang-Dung Nguyen*, Tran Phuong, Thang Hoang]
+date: 2024-09-30T00:00:00-07:00
+doi: ""
+highlight: "1"
 #award: "Best Paper Award"
 
 
@@ -13,7 +13,7 @@ highlight: 1
 
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2023-04-25T00:00:00-07:00
+publishDate: 2024-06-25T00:00:00-07:00
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -22,8 +22,8 @@ publishDate: 2023-04-25T00:00:00-07:00
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: "International Conference on Computer Communications and Networks"
-publication_short: "ICCCN"
+publication: "International Symposium on Research in Attacks, Intrusions and Defenses"
+publication_short: "RAID"
 
 abstract: ""
 
@@ -42,12 +42,12 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf:  
+url_pdf:
 url_code: 
 url_dataset: 
 url_poster:
 url_project:
-url_slides: 
+url_slides:
 url_source:
 url_video:
 

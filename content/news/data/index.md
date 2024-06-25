@@ -3,7 +3,7 @@
 news:
 
   - date: 2024-06-25
-    title: Paper on attacking heterogenous federated learning conditionally accepted to [RAID 2024](https://raid2024.github.io). This work is part of Atharva's MS thesis, which he just also succefully defended. Congrats Atharva!
+    title: Paper on attacking heterogenous federated learning conditionally accepted to [RAID 2024](https://raid2024.github.io). This work is part of Atharva's MS thesis, which he just succefully defended. Congrats Atharva!
     highlight: 0
 
   - date: 2024-06-19
@@ -19,7 +19,7 @@ news:
     highlight: 0
   
   - date: 2024-02-29
-    title: Paper on attack on searchable encryption accepted to [ACM CODASPY 2024](https://www.codaspy.org/2024/). This work is part of Jacob's MS thesis, which he just also succefully defended. Congrats Jacob!
+    title: Paper on attack on searchable encryption accepted to [ACM CODASPY 2024](https://www.codaspy.org/2024/). This work is part of Jacob's MS thesis, which he just succefully defended. Congrats Jacob!
     highlight: 0
   
   - date: 2024-02-26

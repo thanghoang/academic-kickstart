@@ -4,7 +4,7 @@
 title: "Exploiting Update Leakage in Searchable Symmetric Encryption"
 authors: [Jacob Haltiwanger*, Thang Hoang]
 date: 2024-06-19T00:00:00-07:00
-doi: ""
+doi: "https://doi.org/10.1145/3626232.3653260"
 highlight: 1
 #award: "Best Paper Award"
 
@@ -44,12 +44,12 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf: 
-url_code: 
+url_pdf: https://dl.acm.org/doi/pdf/10.1145/3626232.3653260
+url_code: https://github.com/vt-asaplab/DSSE-Attacks
 url_dataset: 
 url_poster:
 url_project:
-url_slides:
+url_slides: slides/24_codaspy_upattack.pdf
 url_source:
 url_video:
 
