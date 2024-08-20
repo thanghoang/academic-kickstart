@@ -1,9 +1,14 @@
 ---
 
 news:
+
+  - date: 2024-08-20
+    title: "Two papers accepted to [ACSAC](https://acsac.org): One on verifiable and privacy preserving machine learning and one (conditionally) on secure aggregation in federated learning. Congrats Arman for being (co)authored on both papers" 
+    highlight: 0
+
   - date: 2024-07-15
     title: Got an [NSF SaTC CORE MEDIUM Grant](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2350215&HistoricalAwards=false) for the project on distributed network security. Thanks for your support!
-    highlight: 0
+    highlight: 1
   
   - date: 2024-06-25
     title: "Paper on attacking heterogeneous federated learning conditionally accepted to [RAID 2024](https://raid2024.github.io). This work is part of Atharva's MS thesis, which he just successfully defended. Congrats Atharva! (**Updated 07/16/24**: status changed to accepted)"

@@ -51,18 +51,18 @@
 
 {{/* Thang edit start */}}
 {{ $currYear := int (now.Format "2006") }}
-{{ $TwoYearsAgo := sub $currYear 1 }}
-{{ $filterDateTwoYearsAgo := print $TwoYearsAgo "-01-01" "T00:00:00-05:00" }}
-{{ $filterDateTwoYearsAgo = time $filterDateTwoYearsAgo }}
-{{ $queryA := where  $query  "Date" ">="  $filterDateTwoYearsAgo    }}
+{{ $ThreeYearsAgo := sub $currYear 5 }}
+{{ $filterDateThreeYearsAgo := print $ThreeYearsAgo "-01-01" "T00:00:00-05:00" }}
+{{ $filterDateThreeYearsAgo = time $filterDateThreeYearsAgo }}
+{{ $queryA := where  $query  "Date" ">="  $filterDateThreeYearsAgo    }}
 
 
-{{$FiveYearsAgo := sub $currYear 5}}
-{{ $filterDateFiveYearsAgo := print $FiveYearsAgo "-01-01" "T00:00:00-05:00" }}
-{{ $filterDateFiveYearsAgo = time $filterDateFiveYearsAgo }}
+{{$SincePhD := 2015}}
+{{$filterDateSincePhD := print $SincePhD "-01-01" "T00:00:00-05:00"}}
+{{$filterDateSincePhD = time $filterDateSincePhD}}
 
-{{ $queryB := where  $query  "Date" ">="  $filterDateFiveYearsAgo    }}
-{{ $queryB = where  $queryB  "Params.highlight" "=" 1    }}
+{{$queryB := where  $query  "Date" ">="  $filterDateSincePhD }}
+{{$queryB = where  $queryB  "Params.highlight" "=" 1 }}
 
 {{$query = $queryA | union $queryB}}
 {{ $count := len $query }}
