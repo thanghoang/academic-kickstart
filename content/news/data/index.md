@@ -3,7 +3,7 @@
 news:
 
   - date: 2024-08-20
-    title: "Two papers accepted to [ACSAC](https://acsac.org): one on verifiable and privacy preserving machine learning and one (conditionally) on secure aggregation in federated learning. Congrats Arman for leading one and being coauthored on the other!" 
+    title: "Two papers accepted to [ACSAC 2024](https://acsac.org): one on verifiable and privacy preserving machine learning and one (conditionally) on secure aggregation in federated learning. Congrats Arman for leading one and being coauthored on the other!" 
     highlight: 0
 
   - date: 2024-07-15
