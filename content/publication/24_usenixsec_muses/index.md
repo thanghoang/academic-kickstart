@@ -45,11 +45,11 @@ featured: false
 #   icon: twitter
 
 url_pdf: https://eprint.iacr.org/2023/720.pdf
-url_code: 
+url_code: https://github.com/vt-asaplab/MUSES
 url_dataset: 
 url_poster:
 url_project:
-url_slides:
+url_slides: slides/24_usenix_muses.pptx
 url_source:
 url_video:
 

@@ -4,7 +4,7 @@
 title: "Efficient Privacy-Preserving Machine Learning with Lightweight Trusted Hardware"
 authors: [Pengzhi Huang, Thang Hoang,Yueying Li, Elaine Shi, G. Edward Suh]
 date: 2024-07-15T00:00:00-07:00
-doi: ""
+doi: "https://doi.org/10.56553/popets-2024-0119"
 highlight: 1
 #award: "Best Paper Award"
 
@@ -50,12 +50,12 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf: 
-url_code: 
+url_pdf: https://petsymposium.org/popets/2024/popets-2024-0119.php
+url_code: https://github.com/HuangPZ/STAMP/tree/b7f9eab2b5d98da9883315075dd2a8066618a876
 url_dataset: 
 url_poster:
 url_project:
-url_slides:
+url_slides: slides/24_pets_stamp.pptx
 url_source:
 url_video:
 
