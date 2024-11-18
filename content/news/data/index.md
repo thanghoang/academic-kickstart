@@ -2,6 +2,14 @@
 
 news:
 
+  - date: 2024-11-15
+    title: "Invited to serve on an NSF SaTC Panel." 
+    highlight: 0
+
+  - date: 2024-10-15
+    title: "Congratulations to Arman for getting the ACSAC student conferenceship award!" 
+    highlight: 0
+
   - date: 2024-09-17
     title: "Invited to serve on an NSF Panel." 
     highlight: 0

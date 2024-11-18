@@ -24,8 +24,7 @@ publication_types: ["1"]
 # Publication name and optional abbreviated publication name.
 publication: "The Annual Computer Security Applications Conference"
 publication_short: "ACSAC"
-
-abstract: ""
+abstract: "Secure aggregation protocols ensure the privacy of users' data in federated learning by preventing the disclosure of local gradients. Many existing protocols impose significant communication and computational burdens on participants and may not efficiently handle the large update vectors typical of machine learning models. Correspondingly, we present e-SeaFL, an efficient verifiable secure aggregation protocol taking only one communication round during the aggregation phase. e-SeaFL allows the aggregation server to generate proof of honest aggregation to participants via authenticated homomorphic vector commitments. Our core idea is the use of assisting nodes to help the aggregation server, under similar trust assumptions existing works place upon the participating users. Our experiments show that the user enjoys an order of magnitude efficiency improvement over the state-of-the-art (IEEE S&P 2023) for large gradient vectors with thousands of parameters."
 
 # Summary. An optional shortened abstract.
 summary: ""
@@ -42,8 +41,8 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf:
-url_code: 
+url_pdf: https://arxiv.org/pdf/2304.03841
+url_code: https://github.com/vt-asaplab/e-SeaFL
 url_dataset: 
 url_poster:
 url_project:
