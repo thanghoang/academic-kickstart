@@ -7,7 +7,7 @@ news:
     highlight: 0
 
   - date: 2024-10-15
-    title: "Congratulations to Arman for getting the ACSAC student conferenceship award!" 
+    title: "Congratulations to Arman for getting the 2024 ACSAC Student Conferenceship Award!" 
     highlight: 0
 
   - date: 2024-09-17
