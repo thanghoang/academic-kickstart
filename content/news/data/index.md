@@ -2,17 +2,17 @@
 
 news:
 
-  - date: 2024-11-15
-    title: "Invited to serve on an NSF TIP/TIE CISE/CNS Panel." 
-    highlight: 0
+  #- date: 2024-11-15
+  #  title: "Invited to serve on an NSF TIP/TIE CISE/CNS Panel." 
+  #  highlight: 0
 
   - date: 2024-10-15
     title: "Congratulations to Arman for getting the 2024 ACSAC Student Conferenceship Award!" 
     highlight: 0
 
-  - date: 2024-09-17
-    title: "Invited to serve on an NSF Panel." 
-    highlight: 0
+  #- date: 2024-09-17
+  #  title: "Invited to serve on an NSF Panel." 
+  #  highlight: 0
 
   - date: 2024-08-20
     title: "Two papers accepted to [ACSAC 2024](https://acsac.org): one on verifiable and privacy preserving machine learning and one (conditionally) on secure aggregation in federated learning (**Updated 09/16/24**: status changed to accepted). Congrats Arman for his first lead author paper!" 
