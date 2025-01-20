@@ -3,7 +3,7 @@
 news:
 
   #- date: 2024-11-15
-  #  title: "Invited to serve on an NSF TIP/TIE CISE/CNS Panel." 
+  #  title: "Invited to serve on an NSF Panel." 
   #  highlight: 0
 
   - date: 2024-10-15
