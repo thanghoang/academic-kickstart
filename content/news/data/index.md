@@ -6,6 +6,10 @@ news:
   #  title: "Invited to serve on an NSF Panel." 
   #  highlight: 0
 
+  - date: 2025-02-24
+    title: "Paper on private information retrieval accepted to [PETS 2025](https://petsymposium.org/cfp25.php). Congratulations to Hoang-Dung for his first lead author paper!" 
+    highlight: 0
+
   - date: 2024-10-15
     title: "Congratulations to Arman for getting the 2024 ACSAC Student Conferenceship Award!" 
     highlight: 0
