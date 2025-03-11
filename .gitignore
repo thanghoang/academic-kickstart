@@ -1,0 +1,10 @@
+# IDEs
+.idea/
+
+# Hugo
+resources/
+public/
+
+
+# Ignore archived teaching materials
+teaching_archived/

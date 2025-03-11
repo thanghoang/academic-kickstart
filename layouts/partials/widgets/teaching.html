@@ -1,0 +1,58 @@
+{{/* News Widget */}}
+
+{{/* Initialise */}}
+{{ $ := .root }}
+{{ $st := .page }}
+{{ $items_type := $st.Params.content.page_type | default "news" }}
+{{ $items_offset := $st.Params.content.offset | default 0 }}
+{{ $items_count := $st.Params.content.count }}
+
+{{/* Query */}}
+{{ $query := where site.RegularPages "Type" $items_type }}
+{{ $archive_page := site.GetPage "Section" $items_type }}
+
+
+
+{{/* Localisation */}}
+{{ $i18n := "more_services" }}
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>{{ with $st.Title }}{{ . | markdownify | emojify }}{{ end }}</h1>
+    {{ with $st.Params.subtitle }}<p>{{ . | markdownify | emojify }}</p>{{ end }}
+
+    <!-- <div class="see-all">
+      <a href="{{ $archive_page.RelPermalink }}">
+        {{ i18n $i18n | default "See all" }}
+        <i class="fas fa-angle-double-right"></i>
+       </a>
+       
+    </div> -->
+    
+  </div>
+  <div class="col-12 col-lg-8 " >
+    
+    {{ with $st.Content }}{{ . }}{{ end }}
+    {{$years  := slice}}
+    {{$service_types :=slice}}
+    {{$pub_types:=slice}}
+    {{ range $query }}
+        {{$services:= .Params.services }}
+      <div class="view-list-item">
+        <i class="" aria-hidden="true"></i>
+        <div>I am teaching the following course at VT</div>
+        <ul>
+          <li><a href="https://canvas.vt.edu/courses/204945">CS 6204: Advanced Topics in Systems (Spring 2025)</a></li>
+        </ul>
+      </div>
+      <b>Past courses</b>
+      <ul>
+        <li>CS 5594: Blockchain Technologies (Spring 2021, Spring 2023, Spring 2024)</li>  
+        <li>CS 4104: Data and Algorithm Analysis (Fall 2022, Fall 2023, Fall 24)</li>
+        <li>CS 4274: Secure Computing Capstone (Spring 2022)</a></li>
+      </ul>
+  
+    {{end}}
+
+    
+  </div>
+</div>

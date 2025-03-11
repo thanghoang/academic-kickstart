@@ -1,0 +1,81 @@
+{{/* News Widget */}}
+
+{{/* Initialise */}}
+{{ $ := .root }}
+{{ $st := .page }}
+{{ $items_type := $st.Params.content.page_type | default "news" }}
+{{ $items_offset := $st.Params.content.offset | default 0 }}
+{{ $items_count := $st.Params.content.count }}
+
+{{/* Query */}}
+{{ $query := where site.RegularPages "Type" $items_type }}
+{{ $archive_page := site.GetPage "Section" $items_type }}
+
+
+
+{{/* Localisation */}}
+{{ $i18n := "" }}
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>{{ with $st.Title }}{{ . | markdownify | emojify }}{{ end }}</h1>
+    {{ with $st.Params.subtitle }}<p>{{ . | markdownify | emojify }}</p>{{ end }}
+
+    <!-- <div class="see-all">
+      <a href="{{ $archive_page.RelPermalink }}">
+        {{ i18n $i18n | default "See all" }}
+        <i class="fas fa-angle-double-right"></i>
+       </a>
+       
+    </div> -->
+    
+  </div>
+  <div class="col-12 col-lg-8 " >
+    
+      <div class="view-list-item">
+        <i class="" aria-hidden="true"></i>
+        <div>I am fortunate to work with the following talented students</div>
+          <h3>PhD students</h3>
+          <ul>
+            <li>Tung Le | <small> Fall 2021 - current </small></li>
+            <li>Arman Riasi  | <small> Fall 2022 - current </small></li>
+            <li>Hoang Dung Nguyen | <small> Spring 2023  - current  </small></li>
+            <li>Changqi Sun | <small>Fall 2023 - current  </small> </li>
+            <li>Edmund Amanor | <small>Fall 2023 - current </small></li>
+            <li>Munshi Ala Muid | <small> Fall 2023  - current </small> | <small>co-advise w/ <a href="https://taejoong.github.io">Tijay Chung</a>  </small></li>
+            
+          </ul>
+          <!--<h3>MS students</h3>
+          <ul>
+            
+          </ul>-->
+          <h3> Visiting students</h3>
+          <ul>
+            <li> <a href="https://lirawang.github.io/">Haodi Wang</a>  | <small> Spring 2021 - Spring 2024 (First job: Postdoc @ CUHK) </small></li>
+          </ul>
+          
+          <h2> Alumni </h2>
+          <ul>
+          <li><a><b>Atharva Haldankar</b></a>, MS (2024)
+            <div style="padding-left:20pt"><u>Thesis:</u> Breaking Privacy in Model-Heterogeneous Federated Learning</div> 
+            <div style="margin-left:20pt"><u>First job:</u> Software Engineer @ Capital One</div>
+          </li>
+          <li> <a><b>Jacob Haltiwanger</b></a>, MS (2024) 
+            <div style="margin-left:20pt"><u>Thesis:</u> Exploiting Update Leakage in Searchable Symmetric Encryption</div>
+            <div style="margin-left:20pt"><u>First job:</u> (confidential, non-disclosable) </div>
+          </li> 
+          <li> <a><b>Trevor Miller</a></b>, MS (2023)
+            <div style="margin-left:20pt"><u>Thesis:</u> Privatizing the Volume and Timing of Transactions for Blockchain Applications</div>
+          </li>  
+          <li> <a href="https://mohitbt.com/"><b>Mohit Bhasi</b></a>, MS (2022)</li>
+            <div style="margin-left:20pt"><u>Thesis:</u> Privacy-Preserving and Immutable Audit Log for Sensitive Data Operations</div>
+            <div style="margin-left:20pt"><u>First job:</u> Software Engineer @ Robinhood</div>
+          </ul>
+         
+          
+        </div>
+
+      
+    
+    
+  </div>
+</div>

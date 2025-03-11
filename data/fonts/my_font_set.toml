@@ -1,0 +1,23 @@
+# Thang edit for font  
+# Font style metadata
+name = "Minimal"
+
+# Optional Google font URL
+#google_fonts = "Source+Sans+3:wght@400;500;600;700&Roboto:wght@400;"
+#google_fonts = "Assistant:wght@400..800&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Roboto:ital,wght@0,100..900;1,100..900"
+
+google_fonts = "Assistant:wght@400..800&family=Source+Sans+Pro&family=Alegreya+Sans:ital,wght@0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Gowun+Dodum&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Ysabeau+Infant:ital,wght@0,300..1000;1,300..1000&family=Ysabeau+Office:ital,wght@0,1..1000;1,1..1000"
+
+# Font families
+heading_font = "Assistant"
+body_font = "Assistant"
+nav_font = "Source Sans Pro"
+mono_font = "Assistant"
+vietnamese_font = "Ysabeau Infant"
+
+# looking good fonts: 
+# Alegreya Sans
+# Ysabeau Infant
+# Gowun Dodum
+# Source Sans 3  (does not support Vietnamese)
+# Assistant (does not support Vietnamese)

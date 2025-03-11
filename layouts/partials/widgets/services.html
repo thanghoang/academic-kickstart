@@ -1,0 +1,125 @@
+{{/* News Widget */}}
+
+{{/* Initialise */}}
+{{ $ := .root }}
+{{ $st := .page }}
+{{ $items_type := $st.Params.content.page_type | default "news" }}
+{{ $items_offset := $st.Params.content.offset | default 0 }}
+{{ $items_count := $st.Params.content.count }}
+
+{{/* Query */}}
+{{ $query := where site.RegularPages "Type" $items_type }}
+{{ $archive_page := site.GetPage "Section" $items_type }}
+
+
+
+{{/* Localisation */}}
+{{ $i18n := "more_services" }}
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>{{ with $st.Title }}{{ . | markdownify | emojify }}{{ end }}</h1>
+    {{ with $st.Params.subtitle }}<p>{{ . | markdownify | emojify }}</p>{{ end }}
+
+    <div class="see-all">
+      <a href="{{ $archive_page.RelPermalink }}">
+        {{ i18n $i18n | default "See all" }}
+        <i class="fas fa-angle-double-right"></i>
+       </a>
+       
+    </div>
+    
+  </div>
+  <div class="col-12 col-lg-8 " >
+    
+    {{ with $st.Content }}{{ . }}{{ end }}
+    {{$years  := slice}}
+    {{$service_types :=slice}}
+    {{ range $query }}
+        {{$services:= .Params.services }}
+        
+      <div class="view-list-item">
+        <i class="" aria-hidden="true"></i>
+        <div>I am involved with the following events</div>
+ 
+        {{ range $services  }}
+          {{ $years = $years | append .year}}
+          {{ $service_types = $service_types | append .service_type}}
+        {{end}}
+        {{ $years = uniq $years | sort }}
+        {{ $years = sort $years "value"  "desc" }}
+        {{ $service_types = uniq $service_types | sort }}
+        <div class ="services">
+        {{ range first $items_count $years}}
+          {{$curYear:= .}}
+          <h3>{{$curYear}}</h3>
+          {{ range $service_types}}
+            {{$curService_type:=. }}
+            
+            {{if eq $curService_type 2 }}
+              {{$len := len (where (where $services "year" $curYear) "service_type" $curService_type) }}
+              {{if gt $len 0}}
+              <h6 class = "serviceHeading"><i class="fa fa-caret-right" aria-hidden="true"></i> Organizing Committee </h6>
+              {{end}}
+              {{$venue_lst:= slice}}
+              {{range sort (where (where $services "year" $curYear) "service_type" $curService_type) "venue" "desc"}}
+                {{$venue := .venue }} 
+                {{$venue_lst = $venue_lst | append $venue}}
+              {{end}}
+              {{if gt $len 0}}
+                <div class="pc">{{delimit $venue_lst ", " | markdownify}}</div>
+              {{end}}
+
+            {{else if eq $curService_type 3 }}
+              {{$len := len (where (where $services "year" $curYear) "service_type" $curService_type) }}
+              {{if gt $len 0}}
+              <h6 class = "serviceHeading"><i class="fa fa-caret-right" aria-hidden="true"></i> Program Committee </h6>
+              {{end}}
+              {{$venue_lst:= slice}}
+              {{range sort (where (where $services "year" $curYear) "service_type" $curService_type) "venue" "desc"}}
+                {{$venue := .venue }} 
+                {{$venue_lst = $venue_lst | append $venue}}
+              {{end}}
+              {{if gt $len 0}}
+                <div class="pc">{{delimit $venue_lst ", " | markdownify}}</div>
+              {{end}}
+
+            {{else if eq $curService_type 4}}
+              {{$len := len (where (where $services "year" $curYear) "service_type" $curService_type) }}
+              {{if gt $len 0}}
+              <h6 class = "serviceHeading"><i class="fa fa-caret-right" aria-hidden="true"></i> Journal Reviewer </h6>
+              {{end}}
+              {{$venue_lst:= slice}}
+              {{range sort (where (where $services "year" $curYear) "service_type" $curService_type) "venue" "desc"}}
+                {{$venue := .venue }} 
+                {{$venue_lst = $venue_lst | append $venue}}
+              {{end}}
+              {{if gt $len 0}}
+                <div class="pc">{{delimit $venue_lst ", " | markdownify}}</div>
+              {{end}}
+              
+            {{else if eq $curService_type 5}}
+              {{$len := len (where (where $services "year" $curYear) "service_type" $curService_type) }}
+              {{if gt $len 0}}
+              <h6 class = "serviceHeading"><i class="fa fa-caret-right" aria-hidden="true"></i> Conference (External) Reviewer </h6>
+              {{end}}
+              {{$venue_lst:= slice}}
+              {{range sort (where (where $services "year" $curYear) "service_type" $curService_type) "venue" "desc"}}
+                {{$venue := .venue }} 
+                {{$venue_lst = $venue_lst | append $venue}}
+              {{end}}
+              {{if gt $len 0}}
+                <div class="pc">{{delimit $venue_lst ", " | markdownify}}</div>
+              {{end}}
+            {{else }}
+              <!-- Other services, to be added-->
+            {{end}}            
+            
+          {{end}}
+        {{end}}
+        </div>
+      </div>
+    {{end}}
+
+    
+  </div>
+</div>

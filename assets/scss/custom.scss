@@ -1,0 +1,116 @@
+/* this definition is in academic/_root.scss */
+@media only screen and (min-width: 1279px) {
+	.universal-wrapper {
+	  width: 1280px;
+	}
+  }
+/* END this definition is in academic/_root.scss */
+
+
+
+.article-container {
+	max-width: 1024px;
+	padding: 0 20px 0 20px;
+	margin: 0 auto 0 auto;
+  }
+  
+
+.news
+{
+	font-size:0.9rem;
+}
+/* news section */
+.news .newsTitle
+{
+	margin-left: 170px;
+	/*#color:red;
+	#background-color: green;*/
+}
+
+.news .newsDate
+{
+	float:left;
+	/*color:blue;*/
+}
+
+.news .newsHighlightDate
+{
+	color:red;
+	font-weight:500;
+}
+
+.news .newsHighlightTitle
+{
+	font-weight:500;
+}
+
+
+
+
+
+
+
+/* experiment section */
+
+.card-body_exp {
+	flex: 1 1 auto;
+	// Workaround for the image size bug in IE
+	// See: https://github.com/twbs/bootstrap/pull/28855
+	min-height: 1px;
+	padding: .75rem;
+	color: $card-color;
+  }
+
+.exp_location {
+	float:right;
+}
+
+.exp_date {
+	float: right;
+}
+.exp_title {
+	float:left;
+}
+.exp_comp {
+	clear:both;
+	float:left;
+	padding-left:10px;
+}
+
+/* services section */
+
+.services
+{
+	h3
+	{
+		clear:both;
+		padding-left: 0px;
+		margin-left: 0px;
+	}
+	h6
+	{
+		margin-left: 20px;
+	}
+	.serviceHeading
+	{
+		margin-left: 5px;
+	}
+	.venueHeading
+	{
+		width: 140px;
+		float:left;
+		text-align: right!important;
+		margin-left: 30px;
+
+		
+	}
+	.venue
+	{
+		margin-left: 180px;
+		padding-bottom:7px;
+	}
+	.pc
+	{
+		margin-left: 20px;
+	}
+}
