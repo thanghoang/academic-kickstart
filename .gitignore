@@ -8,3 +8,6 @@ public/
 
 # Ignore archived teaching materials
 teaching_archived/
+
+# macOS system files
+.DS_Store
