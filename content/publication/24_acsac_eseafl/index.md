@@ -46,7 +46,7 @@ url_code: https://github.com/vt-asaplab/e-SeaFL
 url_dataset: 
 url_poster:
 url_project:
-url_slides:
+url_slides: slides/24_acsac_eseafl.pptx
 url_source:
 url_video:
 
