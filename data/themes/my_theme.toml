@@ -4,6 +4,8 @@ name = "my_theme"
 # Is theme light or dark?
 light = true
 
+# Thang edit, change color theme of links, using VT theme color
+
 # Primary
 primary = "#861F41"
 

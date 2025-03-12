@@ -7,7 +7,7 @@ news:
   #  highlight: 0
 
   - date: 2025-03-10
-    title: "Two papers on encrypted search and certifcate revocation accepted to [IEEE S&P 2025](https://sp2025.ieee-security.org). Congratulations to Tung and, especially, Munshi for his first lead author paper!" 
+    title: "Two papers accepted to [IEEE S&P 2025](https://sp2025.ieee-security.org): one on encrypted search and one on certifcate revocation. Congratulations to Tung and, especially, Munshi for his first lead author paper!" 
     highlight: 0
 
   - date: 2025-02-24

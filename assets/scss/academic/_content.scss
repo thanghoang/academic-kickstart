@@ -27,12 +27,21 @@ h2, h3, h4, h5, h6 {
     font-family: $sta-font-vietnamese, sans-serif;
     font-size: 1.1rem;
     letter-spacing: -.8px;
+    font-style: italic;
   }
 
+b.bb {
+  font-weight: 700;
+}
 
-  b.bb {
-    font-weight: 700;
-  }
+.name{
+  font-weight: 500;
+}
+.thesis, .job{
+  padding-left:20pt;
+  font-size:0.95rem;
+}
+
 
 /* end Thang edit */
 

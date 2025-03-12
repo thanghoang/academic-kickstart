@@ -4,7 +4,7 @@
 title: "Efficient Secure Aggregation for Privacy-Preserving Federated Machine Learning"
 authors: [Rouzbeh Behnia, Arman Riasi*, Mohammadreza Ebrahimi, Sherman S. M. Chow, Balaji Padmanabhan, Thang Hoang]
 date: 2024-12-09T00:00:00-07:00
-doi: ""
+doi: "10.1109/ACSAC63791.2024.00069"
 highlight: "1"
 #award: "Best Paper Award"
 

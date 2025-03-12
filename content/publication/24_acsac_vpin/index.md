@@ -4,7 +4,7 @@
 title: "Privacy-Preserving Verifiable Neural Network Inference Service"
 authors: [Arman Riasi*, Jorge Guajardo, Thang Hoang]
 date: 2024-12-09T00:00:00-07:00
-doi: ""
+doi: "10.1109/ACSAC63791.2024.00063"
 highlight: "1"
 #award: "Best Paper Award"
 
@@ -49,7 +49,7 @@ url_code: https://github.com/vt-asaplab/vPIN
 url_dataset: 
 url_poster:
 url_project:
-url_slides:
+url_slides: slides/24_acsac_vpin.key
 url_source:
 url_video:
 
