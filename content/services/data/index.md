@@ -4,6 +4,10 @@
 services:
 
 - year: 2025
+  venue: "[IEEE MASS](https://ieeemass2025.github.io/ieeemass2025/programcommittee.html) (S&P track)"
+  service_type: 3
+
+- year: 2025
   venue: "[PETS](https://petsymposium.org)"
   service_type: 3
 
