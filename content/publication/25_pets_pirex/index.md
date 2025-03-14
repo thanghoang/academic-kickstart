@@ -42,8 +42,8 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf: 
-url_code: 
+url_pdf: https://eprint.iacr.org/2024/719.pdf
+url_code: https://github.com/vt-asaplab/pirex
 url_dataset: 
 url_poster:
 url_project:
