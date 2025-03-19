@@ -1,40 +1,29 @@
-{{/* Pages Widget */}}
+{{/* Thang edit: Pages Widget */}}
 
 {{/* Initialise */}}
 {{ $ := .root }}
 {{ $st := .page }}
-{{ $items_type := $st.Params.content.page_type | default "post" }}
+{{ $items_type := $st.Params.content.page_type | default "publication" }}
 {{ $items_offset := $st.Params.content.offset | default 0 }}
-{{ $items_count := $st.Params.content.count }}
-{{ if eq $items_count 0 }}
-  {{ $items_count = 65535 }}
-{{ else }}
-  {{ $items_count = $items_count | default 5 }}
-  {{/* Thang edit */}}
-{{ end }}
 {{ $items_sort := $st.Params.content.order | default "desc" }}
 
-{{/* Query */}}
-{{ $query := where site.RegularPages "Type" $items_type }}
+{{/* Query: Get only publications */}}
+{{ $query := where site.RegularPages "Type" "publication" }}
 
 {{ $archive_page := site.GetPage "Section" $items_type }}
 
 {{/* Filters */}}
 {{ if $st.Params.content.filters.tag }}
-  {{ $archive_page = site.GetPage (printf "tags/%s" (urlize $st.Params.content.filters.tag)) }}
-  {{ $query = $query | intersect $archive_page.Pages }}
+  {{ $query = where $query "Params.tags" "intersect" (slice $st.Params.content.filters.tag) }}
 {{ end }}
 {{ if $st.Params.content.filters.category }}
-  {{ $archive_page = site.GetPage (printf "categories/%s" (urlize $st.Params.content.filters.category)) }}
-  {{ $query = $query | intersect $archive_page.Pages }}
+  {{ $query = where $query "Params.categories" "intersect" (slice $st.Params.content.filters.category) }}
 {{ end }}
 {{ if $st.Params.content.filters.publication_type }}
-  {{ $archive_page = site.GetPage (printf "publication_types/%s" $st.Params.content.filters.publication_type) }}
-  {{ $query = $query | intersect $archive_page.Pages }}
+  {{ $query = where $query "Params.publication_types" "intersect" (slice $st.Params.content.filters.publication_type) }}
 {{ end }}
 {{ if $st.Params.content.filters.author }}
-  {{ $archive_page = site.GetPage (printf "authors/%s" (urlize $st.Params.content.filters.author)) }}
-  {{ $query = $query | intersect $archive_page.Pages }}
+  {{ $query = where $query "Params.authors" "intersect" (slice $st.Params.content.filters.author) }}
 {{ end }}
 {{ if $st.Params.content.filters.exclude_featured }}
   {{ $query = where $query "Params.featured" "!=" true }}
@@ -46,42 +35,21 @@
   {{ $query = where $query "Date" "<" now }}
 {{ end }}
 
-
-
-
-{{/* Thang edit start */}}
+{{/* Thang edit start: Keep 5 years & since PhD (2015) */}}
 {{ $currYear := int (now.Format "2006") }}
-{{ $ThreeYearsAgo := sub $currYear 5 }}
-{{ $filterDateThreeYearsAgo := print $ThreeYearsAgo "-01-01" "T00:00:00-05:00" }}
-{{ $filterDateThreeYearsAgo = time $filterDateThreeYearsAgo }}
-{{ $queryA := where  $query  "Date" ">="  $filterDateThreeYearsAgo    }}
+{{ $FiveYearsAgo := sub $currYear 5 }}
+{{ $filterDateFiveYearsAgo := print $FiveYearsAgo "-01-01T00:00:00-05:00" | time }}
+{{ $queryA := where $query "Date" ">=" $filterDateFiveYearsAgo }}
 
+{{ $SincePhD := 2015 }}
+{{ $filterDateSincePhD := print $SincePhD "-01-01T00:00:00-05:00" | time }}
+{{ $queryB := where $query "Date" ">=" $filterDateSincePhD }}
+{{ $queryB = where $queryB "Params.highlight" "=" 1 }}
 
-{{$SincePhD := 2015}}
-{{$filterDateSincePhD := print $SincePhD "-01-01" "T00:00:00-05:00"}}
-{{$filterDateSincePhD = time $filterDateSincePhD}}
-
-{{$queryB := where  $query  "Date" ">="  $filterDateSincePhD }}
-{{$queryB = where  $queryB  "Params.highlight" "=" 1 }}
-
-{{$query = $queryA | union $queryB}}
+{{ $query = $queryA | union $queryB }}
+{{ $query = sort $query "Date" $items_sort }}
 {{ $count := len $query }}
 {{/* Thang edit end */}}
-
-
-{{/* Sort */}}
-{{ $sort_by := "Date" }}
-{{ $query = sort $query $sort_by $items_sort }}
-
-{{/* Offset and Limit */}}
-{{ if gt $items_offset 0 }}
-  {{/* Thang edit replace this with below $query = first $items_count (after $items_offset $query) */}}
-  {{ $query = first $count (after $items_offset $query) }}
-{{ else }}
-
-  {{/* Thang edit replace this with below  $query = first $items_count $query */}}
-  {{ $query = first $count $query }}
-{{ end }}
 
 {{/* Localisation */}}
 {{ $i18n := "" }}
@@ -109,23 +77,20 @@
 
     <small><u>underlined</u> are my advisees during the project lifespan</small>
   </div>
+  
   <div class="col-12 col-lg-8">
-
     {{ with $st.Content }}{{ . }}{{ end }}
 
-    {{ range $post := $query }}
-      {{ if eq $st.Params.design.view 1 }}
-        {{ partial "li_list" . }}
-      {{ else if eq $st.Params.design.view 3 }}
-        {{ partial "li_card" . }}
-      {{ else if eq $st.Params.design.view 4 | and (eq $items_type "publication") }}
-        {{ partial "li_citation" . }}
-      {{ else }}
-        {{ partial "li_compact" . }}
-      {{ end }}
-    {{end}}
-    <p style="margin-top: 0.5rem;font-size:0.85rem">For a full list of publications, including older ones, click <a href="publication/">here</a>.
+    {{/* Track last printed year */}}
+    {{ $lastYear := "" }}
 
-  
+    {{ range $query }}
+      {{ partial "li_citation" (dict "entry" . "lastYear" $lastYear) }}
+      {{ $lastYear = .Date.Format "2006" }} <!-- Update lastYear -->
+    {{ end }}
+
+    <p style="margin-top: 0.5rem;font-size:0.85rem">
+      For a full list of publications, including older ones, click <a href="publication/">here</a>.
+    </p>
   </div>
 </div>

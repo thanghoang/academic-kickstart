@@ -23,7 +23,7 @@ publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
 publication: "IEEE International Conference on Trust, Privacy and Security in Intelligent Systems, and Applications"
-publication_short: "IEEE TPS"
+publication_short: "TPS"
 
 abstract: "The audit log is a crucial component to monitor fine-grained operations over sensitive data (e.g., personal, health) for security inspection and assurance. Since such data operations can be highly sensitive, it is vital to ensure that the audit log achieves not only validity and immutability, but also confidentiality against active threats to standard data regulations (e.g., HIPAA) com- pliance. Despite its critical needs, state-of-the-art privacy- preserving audit log schemes (e.g., Ghostor (NSDI’20), Calypso (VLDB’19)) do not fully obtain a high level of privacy, integrity, and immutability simultaneously, in which certain information (e.g., user identities) is still leaked in the log.\\
 

@@ -1,41 +1,67 @@
-<div class="pub-list-item" style="margin-bottom: 1rem">
-  <!--<i class="far fa-file-alt pub-icon" aria-hidden="true"></i> -->
-  {{/* APA Style */}}
-  {{ if eq (site.Params.publications.citation_style | default "apa") "apa" }}
+{{/* Thang edit: Publications List */}}
 
-  <!-- Thang edit -->
-  
-  <b class="articleTittle">
-    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-    {{ if gt .Date now }} (to appear) {{ end }}
-  </b>
-  <br/>
+{{ $entry := .entry | default . }}
+{{ $currentYear := $entry.Date.Format "2006" }}
+{{ $lastYear := .lastYear }}
 
-  <!-- Indented content -->
-  <div style="margin-left: 0.5rem;">
-    <span class="article-metadata li-cite-author">
-      {{ partial "page_metadata_authors" . }}
-    </span> 
-    <br/>
-    <span class="li-cite-venue">  
-      <b>
-        {{ if (eq (index .Params.publication_types 0) "1") }} <!-- conf venue-->
-          {{- .Params.publication | markdownify  -}}
-          {{if .Params.publication_short }}
-            (<b>{{- .Params.publication_short | markdownify -}}</b>)
-          {{end}}
-        {{ else}}  <!-- journal venue-->
-          {{- .Params.publication | markdownify -}}&nbsp;
-        {{ end }}
-      </b>
-      <b>{{- .Date.Format "2006" -}}</b>
+{{/* Add a horizontal separator ONLY when the year changes, but NOT at the top */}}
+{{ if ne $currentYear $lastYear }}
+  {{ if $lastYear }}
+    <div class="pub-year-separator">
+    </div>
+  {{ end }}
+{{ end }}
+
+<div class="pub-list-item" style="position: relative; margin-bottom: 0rem; display: flex; align-items: flex-start;">
+
+  <!-- Year in Top Right Corner as a Background -->
+  {{ if ne $currentYear $lastYear }}
+    <span class="pub-year">
+      {{ $currentYear }}
     </span>
-    <br/>
-    {{ if .Params.award}}
-      <b class="bb">*{{.Params.award | markdownify}}*</b>
-    {{end}}
-    <p>{{ partial "page_links" (dict "page" . "is_list" 1) }}</p>
+  {{ end }}
+
+  <!-- Content Wrapper -->
+  <div style="display: flex; align-items: flex-start;">
+
+    <!-- Fixed Width Column for Tag (Aligned Left) -->
+    <div class="pub-tag">
+      {{ if $entry.Params.publication_short }}
+        <span  class="pub-tag-label">
+          {{ $entry.Params.publication_short | markdownify }}
+        </span>
+      {{ end }}
+    </div>
+
+    <!-- Main Content (Indented Properly) -->
+    <div style="flex-grow: 1;">
+      <!-- Title -->
+      <b class="articleTittle">
+        <a href="{{ $entry.RelPermalink }}">{{ $entry.Title }}</a>
+        {{ if gt $entry.Date now }} (to appear) {{ end }}
+      </b>
+      <br/>
+
+      <!-- Indented content -->
+      <div style="margin-left: 0rem;">
+        <span class="article-metadata li-cite-author">
+          {{ partial "page_metadata_authors" $entry }}
+        </span> 
+        <br/>
+
+        <span class="li-cite-venue">  
+          <b>{{ $entry.Params.publication | markdownify }}</b>
+          <b>{{- $entry.Date.Format "2006" -}}</b>
+        </span>
+        <br/>
+
+        {{ if $entry.Params.award}}
+          <b class="bb">*{{ $entry.Params.award | markdownify }}*</b>
+        {{end}}
+
+        <p>{{ partial "page_links" (dict "page" $entry "is_list" 1) }}</p>
+      </div>
+    </div>
   </div>
 
-  {{ end }}
 </div>

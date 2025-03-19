@@ -20,7 +20,7 @@ publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
 publication: "IEEE International Conference on Trust, Privacy and Security in Intelligent Systems, and Applications"
-publication_short: "IEEE TPS"
+publication_short: "TPS"
 
 abstract: "Distributed cyber-infrastructures and Artificial Intelligence (AI) are transformative technologies that will play a pivotal role in the future of society and the scientific community. Internet of Things (IoT) applications harbor vast quantities of connected devices that collect a massive amount of sensitive information (e.g., medical, financial), which is usually analyzed either at the edge or federated cloud systems via AI/Machine Learning (ML) algorithms to make critical decisions (e.g., diagnosis). It is of paramount importance to ensure the security, privacy, and trustworthiness of data collection, analysis, and decision-making processes. However, system complexity and increased attack surfaces make these applications vulnerable to system breaches, single-point of failures, and various cyber-attacks. Moreover, the advances in quantum computing exacerbate the security and privacy challenges. That is, emerging quantum computers can break conventional cryptographic systems that offer cyber-security services, public key infrastructures, and privacy-enhancing technologies. Therefore, there is a vital need for new cyber-security paradigms that can address the resiliency, long-term security, and efficiency requirements of distributed cyber infrastructures.\\
 

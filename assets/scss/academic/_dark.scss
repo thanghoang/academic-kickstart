@@ -55,6 +55,43 @@
 }
 
 
+/* publication entry */
+.dark .pub-tag{
+  flex-shrink: 0;
+  width: 4rem; /* Ensures all entries start at the same point */
+  display: flex;
+  justify-content: flex-start; /* Align tags to the left */
+  text-align: left;
+}
+.dark .pub-tag-label{
+display: inline-block;
+margin-top: 0.2rem; /* Moves the tag slightly downward */
+background: rgba(52, 152, 219, 0.3); /* Transparent soft color */
+color: white;
+font-size: 0.75rem;
+font-weight: bold;
+padding: 0.0rem 0.3rem;
+border-radius: 4px;
+max-width: 3.8rem; /* Enforce max limit */
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+}
+.dark .pub-year{
+  position: absolute;
+  top: -2rem;
+  right: 0;
+  font-size: 4rem;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.07);
+}
+.dark .pub-year-separator{
+margin-top: 2rem; 
+padding-top: 1rem; 
+border-top: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+
 
 
 /* dropdown of MAIN menu */

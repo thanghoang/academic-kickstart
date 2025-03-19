@@ -18,7 +18,7 @@ publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
 publication: "IEEE Transactions on Cloud Computing"
-publication_short: "IEEE TCC"
+publication_short: "TCC"
 
 abstract: "Database-as-a-service (DBaaS) allows the client to store and manage structured data on the cloud remotely. Despite its merits, DBaaS also brings significant privacy issues. Existing encryption techniques (e.g., SQL-aware encryption) can mitigate privacy concerns, but they still leak information through access patterns which are vulnerable to statistical inference attacks. Oblivious Random Access Machine (ORAM) can seal such leakages, but the recent studies showed significant challenges on the integration of ORAM into databases. Specifically, the direct usage of ORAM on databases is not only costly but also permits very limited query functionalities. We propose new oblivious data structures called Oblivious Matrix Structure (OMAT) and Oblivious Tree Structure (OTREE), which allow tree-based ORAM to be integrated into database systems in a more efficient manner with diverse query functionalities supported. OMAT provides special ORAM packaging strategies for table structures, which not only offers a significantly better performance but also enables a broad range of query types that may not be practical in existing frameworks. OTREE allows oblivious conditional queries to be deployed on tree-indexed databases more efficient than existing techniques. We fully implemented our proposed techniques and evaluated their performance on a real cloud database with various metrics, compared with state-of-the-art counterparts."
 

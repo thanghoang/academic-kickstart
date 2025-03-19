@@ -23,7 +23,7 @@ publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
 publication: "USENIX Security Symposium"
-publication_short: "USENIX Security"
+publication_short: "USEC"
 
 abstract: "Verifiable Secret Sharing (VSS) is a foundational cryptographic primitive that serves as an essential building block in multi-party computation and decentralized blockchain applications. One of the most practical ways to construct VSS is through a polynomial commitment, where the dealer commits to a random polynomial whose 0-th coefficient encodes the secret to be shared, and proves the evaluation of the committed polynomial at a different point to each of N verifiers, i.e., the polynomial commitment is used in a “one-to-many” fashion. The recent work of Tomescu et al. (IEEE S&P 2020) was the first to consider polynomial commitment with “one-to- many prover batching”, such that the prover can prove evaluations at N different points at the cost of O(1) proofs. However, their scheme is not optimal and requires a trusted setup.\\
 
