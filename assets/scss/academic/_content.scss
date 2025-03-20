@@ -56,7 +56,7 @@ b.bb {
   background: rgba(68, 71, 90, .9);
   color: white;
   font-size: 0.75rem;
-  font-weight: bold;
+  font-weight: 600;
   padding: 0.0rem 0.3rem;
   border-radius: 4px;
   max-width: 3.8rem; /* Enforce max limit */
@@ -68,8 +68,8 @@ b.bb {
       position: absolute;
       top: -2rem;
       right: 0;
-      font-size: 4rem;
-      font-weight: bold;
+      font-size: 5rem;
+      font-weight: 300;
       color: rgba(25, 82, 153, 0.8); /* Transparent soft color */
       color: rgba(68, 71, 90, .1);
 }

@@ -23,7 +23,7 @@ publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
 publication: "USENIX Security Symposium"
-publication_short: "USEC"
+publication_short: "USENIX"
 
 abstract: "Searchable encrypted systems enable privacy-preserving key- word search on encrypted data. Symmetric systems achieve high efficiency (e.g., sublinear search), but they mostly sup- port single-user search. Although systems based on public- key or hybrid models support multi-user search, they incur inherent security weaknesses (e.g., keyword-guessing vulner- abilities) and scalability limitations due to costly public-key operations (e.g., pairing). More importantly, most encrypted search designs leak statistical information (e.g., search, re- sult, and volume patterns) and thus are vulnerable to devas- tating leakage-abuse attacks. Some pattern-hiding schemes were proposed. However, they incur significant user band- width/computation costs, and thus are not desirable for large- scale outsourced databases with resource-constrained users.\\
 

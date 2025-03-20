@@ -17,7 +17,7 @@
   <!-- Year in Top Right Corner as a Background -->
   {{ if ne $currentYear $lastYear }}
     <span class="pub-year">
-      {{ $currentYear }}
+      {{ (printf "%s-01-01T00:00:00Z" $currentYear) | time.Format "06" }}
     </span>
   {{ end }}
 
